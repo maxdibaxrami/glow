@@ -1,0 +1,42 @@
+
+.content{
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+}
+.Tabbar{
+	width: 100%;
+	height: 98px;
+	background-color: white;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-evenly;
+	/*box-shadow: 0 1px #dddddd inset;*/
+}
+
+.box{
+	margin-top: 8px;
+	text-align: center;
+}
+
+.box:nth-child(n+2){
+
+}
+
+.icon{
+	width: 32px;
+	height: 32px;
+	margin: 0 auto;
+}
+
+.label{
+	color: #212121;
+	font-size: 14px;
+	line-height: 24px;
+	user-select: none;
+	
+}
+
+.labelactive{
+	color: #8266ff;
+}
