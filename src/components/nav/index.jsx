@@ -6,15 +6,18 @@ const Nav = ()=> {
     return <Grid.Container alignItems='center' justify="space-between" height="100px" width={'100%'}>
         <Grid >
             <Badge.Anchor placement="bottomRight">
-                <Badge scale={0.5} type="success" dot padding="5px" >10</Badge>
+                <Badge scale={0.5} type="success" dot padding="5px" ></Badge>
                 <Avatar scale={1.5} isSquare src="https://geist-ui.dev/images/avatar.png" />
              </Badge.Anchor>
         </Grid>
         <Grid >
-            <Text h3>GLOW!</Text>
+            <Text paddingTop={'8px'} h3>GLOW!</Text>
         </Grid>
         <Grid>
-            <Bell color="black" size={26} />
+            <Badge.Anchor>
+                <Badge type="error" dot padding="5px" />
+                <Bell color="black" size={30} />
+             </Badge.Anchor>
         </Grid>
   </Grid.Container>
 }
