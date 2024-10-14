@@ -1,10 +1,6 @@
 .swiper {
     width: 85%;
-    height: 320px;
-  }
-  .mySwiper{
-
-    
+    height: 75vh;
   }
 
   .swiper-slide {
@@ -15,7 +11,7 @@
     font-size: 22px;
     font-weight: bold;
     color: #fff;
-    height: 100vh;
+    height: 65vh;
   }
   
   .swiper-slide:nth-child(1n) {
