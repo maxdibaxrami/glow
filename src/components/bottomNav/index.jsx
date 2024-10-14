@@ -71,7 +71,7 @@ const Tabbar = () => {
   };
 
   return (
-    <div className="content">
+    <div className="content" style={{height:'10vh'}}>
       <div className="Tabbar">
         <div className="box box1" onClick={() => handleClick(animations.current.anim1, homeTextRef.current)}>
           <div className="icon" ref={homeRef}></div>

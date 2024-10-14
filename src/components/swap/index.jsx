@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/effect-cards';
 
 const SwapperC = () => {
-    return  <div style={{position:"relative",height:'100vh',padding:"10px 0px"}}>
+    return  <div style={{position:"relative",height:'80vh',padding:"10px 0px"}}>
         <Swiper
         effect={'cards'}
         grabCursor={true}
