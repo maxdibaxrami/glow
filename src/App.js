@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import MainLoading from './components/loading';
+import { GeistProvider, CssBaseline } from '@geist-ui/core'
+import Main from './components/main';
+
 function App() {
   return (
-    <div>
-      <MainLoading/>
-    </div>
+    <GeistProvider>
+      <CssBaseline /> 
+      <Main /> 
+  </GeistProvider>
   );
 }
 

@@ -1,0 +1,25 @@
+import react from 'react'
+import { Badge, Text, Grid, Avatar } from '@geist-ui/react'
+import { Bell } from '@geist-ui/react-icons'
+
+const Nav = ()=> {
+    return <Grid.Container alignItems='center' justify="space-between" height="100px" width={'100%'}>
+        <Grid >
+            <Badge.Anchor placement="bottomRight">
+                <Badge scale={0.5} type="success" dot padding="5px" >10</Badge>
+                <Avatar scale={1.5} isSquare src="https://geist-ui.dev/images/avatar.png" />
+             </Badge.Anchor>
+        </Grid>
+        <Grid >
+            <Text h3>GLOW!</Text>
+        </Grid>
+        <Grid>
+            <Bell color="black" size={26} />
+        </Grid>
+  </Grid.Container>
+}
+
+export default Nav
+
+
+
