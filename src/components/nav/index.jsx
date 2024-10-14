@@ -3,7 +3,7 @@ import { Badge, Text, Grid, Avatar } from '@geist-ui/react'
 import { Bell } from '@geist-ui/react-icons'
 
 const Nav = ()=> {
-    return <Grid.Container alignItems='center' justify="space-between" height="100px" width={'100%'} style={{padding:'0px 20px 10px 20px'}}>
+    return <Grid.Container alignItems='center' justify="space-between" height="100px" width={'100%'} style={{padding:'0px 30px 10px 30px'}}>
         <Grid >
             <Badge.Anchor placement="bottomRight">
                 <Badge scale={0.5} type="success" dot padding="5px" ></Badge>
